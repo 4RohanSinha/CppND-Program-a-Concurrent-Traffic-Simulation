@@ -19,7 +19,7 @@ template <class T>
 class MessageQueue
 {
 public:
-
+	
 private:
     
 };
@@ -56,6 +56,7 @@ private:
     std::condition_variable _condition;
     std::mutex _mutex;
     TrafficLightPhase _currentPhase;
+    //ADD THIS after defining MessageQueue class: MessageQueue messageQueue;
 };
 
 #endif
